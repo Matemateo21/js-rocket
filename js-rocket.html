@@ -15,27 +15,27 @@
     <!-- LEFT PART OF THE SCREEN -->
     <div class="left">
 
-        <div class="state1">
+        <div class="interface state1">
             <h1>JS Rocket Launch</h1>
             <a href="#" class="button" onclick="changeToState(2)">Launch! </a>
         </div>
 
-        <div class="state2">
+        <div class="interface state2">
             <h1 id="countdown">10</h1>
             <a href="#" class="button" onclick="changeToState(1)">Stop it! Catastrophy is close!!!! </a>
         </div>
 
-        <div class="state3">
+        <div class="interface state3">
             <h1>Lift OFF</h1>
 
         </div>
 
-        <div class="state4">
+        <div class="interface state4">
             <h1>Well DONE !</h1>
             <a href="#" class="button" onclick="changeToState(1)">Do it again! </a>
         </div>
 
-        <div class="state5">
+        <div class="interface state5">
             <h1>Oh NO!!!!</h1>
             <a href="#" class="button" onclick="changeToState(1)">Start again</a>
         </div>
@@ -55,6 +55,8 @@
     <div class="right">
         <div class="ground"></div>
         <div class="rocket"></div>
+        <div class="nervous" id="showNervous"></div>
+        <div class="cant-wait" id="showCantWait"></div>
 
     </div>
 
